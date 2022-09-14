@@ -44,7 +44,7 @@ AND duration <= 60
 
 SELECT destination_airport_id FROM flights
 WHERE year = 2021 month = 7 day = 29
-ORDEY BY hour, minute
+ORDER BY hour, minute
 
 SELECT full_name, city FROM airports
 WHERE airports.id = 4
